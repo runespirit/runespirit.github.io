@@ -5,9 +5,9 @@ $(document).ready(function () {
 
     $.getJSON("https://api.jsonbin.io/b/5cb7b246961e5c5776978f2c/latest", function (result) {
         //Insert stats.
-        $(".statsServersNum").text(numberWithCommas(result.stats.s));
-        $(".statsUsersNum").text(numberWithCommas(result.stats.u));
-        $(".statsChannelsNum").text(numberWithCommas(result.stats.c));
+        $(".statsServersNum").text(numberWithCommas(0));
+        $(".statsUsersNum").text(numberWithCommas(0));
+        $(".statsChannelsNum").text(numberWithCommas(0));
 
         console.log("[x] Stats set successfully.");
 
