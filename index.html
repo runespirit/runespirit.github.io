@@ -1,0 +1,165 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <title>Runespirit, a TFT Discord Bot.</title>
+    <meta property="og:title" content="Runespirit, a TFT Discord Bot." />
+    <meta property="og:url" content="https://Runespirit.github.io/" />
+    <meta property="og:image" content="https://via.placeholder.com/721x425" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Runespirit" />
+    <meta property="og:keywords" content="Runespirit,Runespirit Bot,Discord Bot,TFT Discord bot,Teamfight Tactics,Teamfight Tactics Discord Bot" />
+    <meta property="og:description" content="The most complete TFT Discord bot. Stats, profiles, comps, tier lists, ladders, and more!"/>
+    <meta name="description" content="The most complete TFT Discord bot. Stats, profiles, comps, tier lists, ladders, and more!" />
+    <meta name="theme-color" content="#da259d">
+
+    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="lightbox/css/lightbox.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="firstDiv">
+        <div class="topBar">
+            <a class="topBar-Title" style="float: left;">RUNESPIRIT</a>
+            <img src="/imgs/Avatar.png" class="topBarImg">
+
+            <div translate="topbar.getRunespirit" class="topBar-GetRunespirit"></div>
+            <div translate="topbar.commands" class="topBar-Commands"></div>
+            <div translate="topbar.about" class="topBar-About"></div>
+        </div>
+        <div class="firstDiv-Center">
+            <div class="runespiritImage">
+                <img src="https://i.imgur.com/hbTBBMG.png?1">
+            </div>
+            <div class="stats">
+                <div class="statsServers">
+                    <div><span class="statsTitle" translate="stats.servers"></span>
+                        <br><span class="statsServersNum num"></span></div>
+                </div>
+                <div class="statsUsers">
+                    <div><span class="statsTitle" translate="stats.users"></span>
+                        <br><span class="statsUsersNum num"></span></div>
+                </div>
+                <div class="statsChannels">
+                    <div><span class="statsTitle" translate="stats.channels"></span>
+                        <br><span class="statsChannelsNum num"></span></div>
+                </div>
+            </div>
+        </div>
+        <a target="_blank" href="https://www.google.com/"><img target="_blank" href="https://www.google.com/" src="https://discordapp.com/api/guilds/265503362739339274/embed.png" class="discordServerImg"></a>
+    </div>
+    <div id="about">
+        <div class="aboutWrapper">
+            <p translate="about.title" class="aboutTitle"></p>
+            <p translate="about.description" class="aboutContent"></p>
+        </div>
+    </div>
+    <div id="commands">
+        <div class="tabela">
+            <p translate="commands.title" class="commandsTitle"></p>
+            <table>
+                <thead>
+                    <tr>
+                        <th translate="commands.commands" scope="col"></th>
+                        <th translate="commands.description" scope="col"></th>
+                        <th translate="commands.usage" scope="col"></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td data-label="Command" class="pinkBg">!r</td>
+                        <td translate="commandsDesc.runespirit" data-label="Description"></td>
+                        <td data-label="Usage"><a translate="commandsUsage.runespirit" href="command_examples/runespirit.png" data-lightbox="runespirit"></a></td>
+                    </tr>
+                    <tr class="slightlyColored">
+                        <td data-label="Command" class="pinkBg">!r champion</td>
+                        <td translate="commandsDesc.champion" data-label="Description"></td>
+                        <td data-label="Usage"><a translate="commandsUsage.champion" href="command_examples/champion.gif" data-lightbox="champion"></a></td>
+                    </tr>
+                    <tr>
+                        <td data-label="Command" class="pinkBg">!r class</td>
+                        <td translate="commandsDesc.class" data-label="Description"></td>
+                        <td data-label="Usage"><a translate="commandsUsage.class" href="command_examples/class.png" data-lightbox="class"></a></td>
+                    </tr>
+                    <tr class="slightlyColored">
+                        <td data-label="Command" class="pinkBg">!r commands</td>
+                        <td translate="commandsDesc.commands" data-label="Description"></td>
+                        <td data-label="Usage"><a translate="commandsUsage.commands" href="command_examples/commands.png" data-lightbox="commands"></a></td>
+                    </tr>
+                    <tr>
+                        <td data-label="Command" class="pinkBg">!r droprates</td>
+                        <td translate="commandsDesc.droprates" data-label="Description"></td>
+                        <td data-label="Usage"><a translate="commandsUsage.droprates" href="command_examples/droprates.png" data-lightbox="droprates"></a></td>
+                    </tr>
+                    <tr class="slightlyColored">
+                        <td data-label="Command" class="pinkBg">!r items</td>
+                        <td translate="commandsDesc.items" data-label="Description"></td>
+                        <td data-label="Usage"><a translate="commandsUsage.items" href="command_examples/items.gif" data-lightbox="items"></a></td>
+                    </tr>
+                    <tr>
+                        <td data-label="Command" class="pinkBg">!r ladder</td>
+                        <td translate="commandsDesc.ladder" data-label="Description"></td>
+                        <td data-label="Usage"><a translate="commandsUsage.ladder" href="command_examples/ladder.gif" data-lightbox="ladder"></a></td>
+                    </tr>
+                    <tr class="slightlyColored">
+                        <td data-label="Command" class="pinkBg">!r origin</td>
+                        <td translate="commandsDesc.origin" data-label="Description"></td>
+                        <td data-label="Usage"><a translate="commandsUsage.origin" href="command_examples/origin.png" data-lightbox="origin"></a></td>
+                    </tr>
+                    <tr>
+                        <td data-label="Command" class="pinkBg">!r patchnotes</td>
+                        <td translate="commandsDesc.patchnotes" data-label="Description"></td>
+                        <td data-label="Usage"><a translate="commandsUsage.patchnotes" href="command_examples/patchnotes.png" data-lightbox="patchnotes"></a></td>
+                    </tr>
+                    <tr class="slightlyColored">
+                        <td data-label="Command" class="pinkBg">!r profile</td>
+                        <td translate="commandsDesc.profile" data-label="Description"></td>
+                        <td data-label="Usage"><a translate="commandsUsage.profile" href="command_examples/profile.png" data-lightbox="profile"></a></td>
+                    </tr>
+                    <tr>
+                        <td data-label="Command" class="pinkBg">!r search</td>
+                        <td translate="commandsDesc.search" data-label="Description"></td>
+                        <td data-label="Usage"><a translate="commandsUsage.search" href="command_examples/search.png" data-lightbox="search"></a></td>
+                    </tr>
+                    <tr class="slightlyColored">
+                        <td data-label="Command" class="pinkBg">!r teamcomps</td>
+                        <td translate="commandsDesc.teamcomps" data-label="Description"></td>
+                        <td data-label="Usage"><a translate="commandsUsage.teamcomps" href="command_examples/teamcomps.png" data-lightbox="teamcomps"></a></td>
+                    </tr>
+                    <tr>
+                        <td data-label="Command" class="pinkBg">!r tierlist</td>
+                        <td translate="commandsDesc.tierlist" data-label="Description"></td>
+                        <td data-label="Usage"><a translate="commandsUsage.tierlist" href="command_examples/tierlist.png" data-lightbox="tierlist"></a></td>
+                    </tr>
+                </tbody>
+            </table>
+            <br>
+            <br>
+        </div>
+    </div>
+    <div id="about">
+        <div class="aboutWrapper">
+            <p translate="contact.title" class="aboutTitle"></p>
+            <br>
+            <p translate="contact.description" class="aboutContent"></p>
+            <a target="_blank" href="https://www.google.com/"><img target="_blank" href="https://www.google.com/" src="https://discordapp.com/api/guilds/265503362739339274/embed.png" style="margin-bottom: 30px;"></a>
+        </div>
+    </div>
+    <footer>
+        <p translate="footer.text"></p>
+        <a target="_blank" href="https://discordbots.org/bot/240482527695994880">
+            <img src="https://discordbots.org/api/widget/lib/240482527695994880.svg?noavatar=true" alt="Discord Music Bot" />
+        </a>
+        <br>
+        <br>
+        <p>Runespirit isn't endorsed by Riot Games and doesn't reflect the views or opinions of Riot Games or anyone officially involved in producing or managing League of Legends. League of Legends and Riot Games are trademarks or registered trademarks of Riot Games, Inc. League of Legends © Riot Games, Inc.</p>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.10/lodash.min.js"></script>
+    <script src="lightbox/js/lightbox.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

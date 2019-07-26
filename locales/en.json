@@ -1,0 +1,60 @@
+{   
+    "topbar": {
+        "about": "ABOUT",
+        "commands": "COMMANDS",
+        "getRunespirit": "ADD BOT"
+    },
+    "stats": {
+        "servers": "Servers",
+        "users": "Users",
+        "channels": "Channels"
+    },
+    "about": {
+        "title": "ABOUT",
+        "description": "Runespirit is a Teamfight Tactics Discord bot. It aims to provide the most accurate data possible, in a simple and quick way. The bot's objective is to eliminate the effort to open third party websites to get crucial information."
+    },
+    "commands": {
+        "title": "COMMANDS",
+        "commands": "COMMANDS",
+        "description": "DESCRIPTION",
+        "usage": "USAGE"
+    },
+    "contact": {
+        "title": "CONTACT",
+        "imprint": "IMPRINT",
+        "description": "If you want to contact the developer, submit a bug, suggest a feature, or simply just talk about how Pyke is the most annoying character in the game, <a href='https://www.google.com/' class='serverA'>join the bot's server</a> or add Phyxsius#1238."
+    },
+    "footer": {
+        "text": "All rights reserved. Website and bot were made with <span>❤</span> by Phyxsius.<br>Runespirit is brought to you by <a target='_blank' href='https://playersrepublik.com/'>Players Republik</a>.<br>Avatar made by <a target='_blank' href='http://tmiracle.deviantart.com/'>TMiracle</a>."
+    },
+    "commandsDesc": {
+        "runespirit": "General info and stats.",
+        "champion": "Champion details and statistics, along with his ability, synergies, and items.",
+        "class": "Details and respective champions for the specified class.",
+        "commands": "Show's the list of commands.",
+        "teamcomps": "Best team comps for the current patch.",
+        "droprates": "Drop rates for each champion tier and level.",
+        "ladder": "Current ladder for TFT ranked and respective highest players.",
+        "origin": "Details and respective champions for the specified origin.",
+        "patchnotes": "Get the latest patch notes and changes.",
+        "profile": "Get a summoner rank and other TFT statistics.",
+        "search": "Search for a TFT term such as an origin, class, items and champions.",
+        "tierlist": "Current tier lists for champions and items.",
+        "items": "Items information from a variety of way. Combine items, grid and list view."
+    },
+    "commandsUsage": {
+        "runespirit": "!r",
+        "champion": "!r champion [champion]",
+        "class": "!r class [class]",
+        "commands": "!r commands",
+        "teamcomps": "!r teamcomps",
+        "droprates": "!r droprate",
+        "ladder": "!r ladder [region]",
+        "origin": "!r origin [origin]",
+        "patchnotes": "!r patchnotes",
+        "profile": "!r profile [region] [summoner]",
+        "search": "!r search [term]",
+        "tierlist": "!r tierlist",
+        "items": "!r items"
+    }
+}
