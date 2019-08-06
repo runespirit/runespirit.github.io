@@ -45,8 +45,8 @@ html, body {
     top: 0;
     left: 0;
     background: #3a7bd5;
-    background: -webkit-linear-gradient(to right, rgb(41, 128, 185), rgb(44, 62, 80));
-    background: linear-gradient(to right, rgb(41, 128, 185), rgb(44, 62, 80));
+    background: -webkit-linear-gradient(to left,#c558aa, #2582bd);
+    background: linear-gradient(to left,#c558aa, #2582bd);
 }
 
 .topBar {
@@ -101,7 +101,7 @@ html, body {
 }
 
 .topBar-GetRunespirit {
-    background-color: #3a7bd5;
+    background-color: #2781bd;
     cursor: pointer;
     cursor: hand;
     -webkit-transition: background-color 100ms linear;
@@ -197,8 +197,8 @@ html, body {
 #commands {
     width: 100%;
     background: #3a7bd5;
-    background: -webkit-linear-gradient(to right, rgb(41, 128, 185), rgb(44, 62, 80));
-    background: linear-gradient(to right, rgb(41, 128, 185), rgb(44, 62, 80));
+    background: -webkit-linear-gradient(to left,#c558aa, #2582bd);
+    background: linear-gradient(to left,#c558aa, #2582bd);
 }
 
 #commands>.tabela {

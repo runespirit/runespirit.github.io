@@ -1,13 +1,13 @@
 $(document).ready(function () {
-    $("head").append("<link href='/imgs/Avatar.png' rel='shortcut icon' type='image/x-icon'/>");
+    $("head").append("<link href='/imgs/logo_cropped.png' rel='shortcut icon' type='image/x-icon'/>");
 
     setLanguage("en");
 
-    $.getJSON("https://api.jsonbin.io/b/5cb7b246961e5c5776978f2c/latest", function (result) {
+    $.getJSON("https://api.jsonbin.io/b/5d486ad4f090a4338579c3e9/latest", function (result) {
         //Insert stats.
-        $(".statsServersNum").text(numberWithCommas(0));
-        $(".statsUsersNum").text(numberWithCommas(0));
-        $(".statsChannelsNum").text(numberWithCommas(0));
+        $(".statsServersNum").text(numberWithCommas(result.stats.s));
+        $(".statsUsersNum").text(numberWithCommas(result.stats.u));
+        $(".statsChannelsNum").text(numberWithCommas(result.stats.c));
 
         console.log("[x] Stats set successfully.");
 
@@ -30,7 +30,7 @@ $(document).ready(function () {
 
     //Top bar "shortcuts".
     $(".topBar-GetRunespirit").on("click", function () {
-        window.open("https://www.google.com/", "_blank");
+        window.open("https://discordapp.com/oauth2/authorize?client_id=594125647182299147&scope=bot&permissions=273472", "_blank");
     });
 
     $(".topBar-Commands").click(function () {
