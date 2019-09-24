@@ -28,6 +28,9 @@
         "text": "All rights reserved. Website and bot were made with <span>❤</span> by Phyxsius.<br>Runespirit is brought to you by <a target='_blank' href='https://playersrepublik.com/'>Players Republik</a>.<br>Avatar made by <a target='_blank' href='http://tmiracle.deviantart.com/'>TMiracle</a>."
     },
     "commandsDesc": {
+        "addRemove": "Add/Remove your LoL summoner to your account.",
+        "disableEnable": "Disables Runespirit on a channel. / Enables Runespirit back on a channel.",
+        "language": "Check available languages and change the bot's laguange.",
         "runespirit": "General info and stats.",
         "champion": "Champion details and statistics, along with his ability, synergies, and items.",
         "class": "Details and respective champions for the specified class.",
@@ -43,6 +46,9 @@
         "items": "Items information from a variety of way. Combine items, grid and list view."
     },
     "commandsUsage": {
+        "addRemove": "!r add / !r remove",
+        "disableEnable": "!r enable / !r disable",
+        "language": "!r language",
         "runespirit": "!r",
         "champion": "!r champion [champion]",
         "class": "!r class [class]",
