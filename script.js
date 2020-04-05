@@ -3,7 +3,10 @@ $(document).ready(function () {
 
     setLanguage("en");
 
-    $.getJSON("https://api.jsonbin.io/b/5d486ad4f090a4338579c3e9/latest", function (result) {
+    $.getJSON("https://api.github.com/gists/e33ab4d7098300518aa599428dcf06fd", function (result) {
+        if(!result || !result.files || !result.files["runespirit-stats.json"]) return;
+        result = JSON.parse(result.files["runespirit-stats.json"].content);
+
         //Insert stats.
         $(".statsServersNum").text(numberWithCommas(result.stats.s));
         $(".statsUsersNum").text(numberWithCommas(result.stats.u));
