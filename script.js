@@ -33,7 +33,7 @@ $(document).ready(function () {
 
     //Top bar "shortcuts".
     $(".topBar-GetRunespirit").on("click", function () {
-        window.open("https://discordapp.com/oauth2/authorize?client_id=594125647182299147&scope=bot&permissions=273472", "_blank");
+        window.open("https://discordapp.com/oauth2/authorize?client_id=594125647182299147&scope=bot&permissions=314368", "_blank");
     });
 
     $(".topBar-Commands").click(function () {
